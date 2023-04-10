@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    .whole {
+          border: 1px solid white;
+          margin: 40px 40px 40px 40px;
+          background-color: hsl(26.25deg 40% 92.16%)
+    }
+
+    .borderone {
+            border: 1px solid hsl(26.25deg 40% 92.16%);
+            margin: 50px 40px 40px 40px;
+            height: 360px;
+            width: 330px;
+            border-radius: 7px 0px 0px 7px;
+            margin-left: 341px;
+
+    }
+    .image1    { border-radius: 7px 0px 0px 7px;  }
+    .bordertwo {
+
+            border: 1px solid hsl(26.25deg 40% 92.16%);
+            margin: 50px 40px 40px 40px;
+            height: 360px;
+            width: 330px;
+            border-radius: 0px 7px 7px 0px;
+            margin-bottom: 40px;
+            margin-right: 100px;
+            margin-left: 670px;
+            margin-top: -401px;
+            background-color: white;
+
+    }
+    
+    .bordertwo h2 {
+            margin-left: 10px
+
+        }
+    .bordertwo p {
+            margin-left: 10px
+
+
+    }
+    .bordertwo h1 {
+            margin-left: 10px;
+            color: hsl(198.41deg 37.29% 53.73%);
+
+    }
+    .dollar {
+      font-size: 20px; 
+      text-decoration: line-through; 
+      margin-top:  -56px;
+      margin-left: 150px;
+      
+    }
+    .cart  {
+            color:white;
+           border-radius: 5px 5px 5px 5px;
+           background-color: hsl(198.41deg 37.29% 53.73%);
+          text-align: center;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          width: 200px;
+          border: 1px solid white;
+          margin-left: 16px
+          
+
+          
+
+
+
+    }
+    
+  </style>
+</head>
+<body>
+<div class="whole">
+  <div class="borderone">
+    <img src="./images/product.jpg" class="image1"; width= 330px; height= 360px;>
+  </div>
+  <div class="bordertwo">
+    <p style="letter-spacing: 5px; margin-top: 10px; margin-left: 10px"> PERFUME</p>
+    <h2>Gabrielle<br>Essence Eau<br>De Parfum</h2>
+    <p> A floral, solar and voluptuous<br>interpretation composed by<br>Olivier Polge. Perfumer-Creator<br>for the House of CHANEL</p>
+    <h1>$149.99</h1>
+    <div class="dollar">
+    <span>$169</span>
+  </div>
+  <br>
+  <br>
+    <div class="cart">
+       <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>&emsp;Add to Cart
+    </div>
+  
+  </div>
+</div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ISHOW</a>.
+  </div>
+</body>
+</html>
